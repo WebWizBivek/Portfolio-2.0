@@ -29,6 +29,10 @@ function Project() {
             img={"/assets/project 6.jpg"}
             project={"https://html-css-js-magma.vercel.app/"}
           />
+          <BoxProject
+            img={"/assets/chat-app.png"}
+            project={"https://chat-app-socket-io-mft6.vercel.app/"}
+          />
         </div>
       </div>
     </section>
