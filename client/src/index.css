@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "font1";
+  src: url("./font/font1.woff2");
+}
+
+@font-face {
+  font-family: "font2";
+  src: url("./font/font2.woff2");
+}
+
+.icone {
+  display: none;
+}
+
+.boxPro:hover .icone {
+  display: block;
+  transition: all 0.3s;
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .elem img {
+    display: none;
+  }
+}
+
+.elem:hover h1 {
+  color: #eb5939;
+}
