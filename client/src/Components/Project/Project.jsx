@@ -27,7 +27,7 @@ function Project() {
           />
           <BoxProject
             img={"/assets/project 6.jpg"}
-            project={"https://html-css-js-magma.vercel.app/"}
+            project={"https://designer-to-hire.vercel.app/"}
           />
           <BoxProject
             img={"/assets/chat-app.png"}
