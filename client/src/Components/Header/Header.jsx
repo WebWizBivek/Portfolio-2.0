@@ -15,10 +15,10 @@ function Header() {
               <a href="#about"> About</a>
             </li>
             <li className="text-zinc-100  hover:text-zinc-500 transition duration-[0.4s]">
-              <a href="#work">work</a>
+              <a href="#skill">SKILLS</a>
             </li>
             <li className="text-zinc-100  hover:text-zinc-500 transition duration-[0.4s]">
-              <a href="#skill">SKILLS</a>
+              <a href="#work">work</a>
             </li>
           </ul>
         </nav>
