@@ -23,14 +23,11 @@ function Project() {
           />
           <BoxProject
             img={"/assets/project 5.jpg"}
-            code={"https://github.com/zaheerali34/HTML-CSS-JS-Project-QCLAY"}
             project={"https://qclay-weld.vercel.app/"}
           />
           <BoxProject
             img={"/assets/project 6.jpg"}
-            project={
-              "https://vercel.com/bivek-singhas-projects/html-css-js-magma"
-            }
+            project={"https://html-css-js-magma.vercel.app/"}
           />
         </div>
       </div>
