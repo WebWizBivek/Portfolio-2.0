@@ -13,7 +13,7 @@ function Home() {
             I am
           </h1>
           <h1 className="textPro text-[8vw] leading-[7rem] font-bold text-[#eb5939] max-[992px]:leading-[2rem] max-sm:mt-[4px] max-sm:text-[2.5rem]">
-            Full Stack
+            a Full Stack
           </h1>
           <h1 className="textPro text-[8vw] leading-[7rem] font-bold text-zinc-200 max-sm:leading-[50px] max-sm:text-[2.5rem]">
             developer

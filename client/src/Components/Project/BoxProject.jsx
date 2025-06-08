@@ -18,15 +18,7 @@ function BoxProject({ img, code, project }) {
             <p className="text-white text-sm font-medium">View Project</p>
           </a>
         </div>
-        <div className="icone">
-          <a href={code}>
-            <i
-              class="ri-code-s-slash-line text-whit
-        e text-[2rem] text-white"
-            ></i>
-            <p className="text-white text-sm font-medium">Code Source</p>
-          </a>
-        </div>
+        <div className="icone"></div>
       </div>
     </div>
   );

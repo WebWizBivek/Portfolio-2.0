@@ -106,22 +106,13 @@ function Skill() {
             className="w-[10%] absolute opacity-0 scale-0 object-cover left-0  transition duration-[0.8s] ease-out delay-[1]"
           />
         </div>
-        <div className="elem w-full px-[10rem] border-t-[1px] border-gray-800  max-[992px]:px-[7rem] max-sm:px-[1rem]">
-          <h1 className="text-zinc-200 font-[font1] text-[7vw] hover:text-zinc-900 transition duration-[0.3s] max-sm:text-[3.5rem]">
-            FIGMA
-          </h1>
-          <img
-            src="./assets/12.png"
-            alt=""
-            className="w-[10%] absolute opacity-0 scale-0 object-cover left-0  transition duration-[0.8s] ease-out delay-[1]"
-          />
-        </div>
+
         <div className="elem w-full px-[10rem] border-t-[1px] border-gray-800  max-[992px]:px-[7rem] max-sm:px-[1rem]">
           <h1 className="text-zinc-200 font-[font1] text-[7vw] hover:text-zinc-900 transition duration-[0.3s] max-sm:text-[3.5rem]">
             NODE.JS
           </h1>
           <img
-            src="./assets/12.png"
+            src="./assets/nodejs.png"
             alt=""
             className="w-[10%] absolute opacity-0 scale-0 object-cover left-0  transition duration-[0.8s] ease-out delay-[1]"
           />
@@ -131,17 +122,7 @@ function Skill() {
             EXPRESS.JS
           </h1>
           <img
-            src="./assets/12.png"
-            alt=""
-            className="w-[10%] absolute opacity-0 scale-0 object-cover left-0  transition duration-[0.8s] ease-out delay-[1]"
-          />
-        </div>
-        <div className="elem w-full px-[10rem] border-t-[1px] border-gray-800  max-[992px]:px-[7rem] max-sm:px-[1rem]">
-          <h1 className="text-zinc-200 font-[font1] text-[7vw] hover:text-zinc-900 transition duration-[0.3s] max-sm:text-[3.5rem]">
-            FIGMA
-          </h1>
-          <img
-            src="./assets/12.png"
+            src="./assets/express-js.png"
             alt=""
             className="w-[10%] absolute opacity-0 scale-0 object-cover left-0  transition duration-[0.8s] ease-out delay-[1]"
           />
