@@ -46,7 +46,7 @@ function Home() {
 
           <button className="fixed right-10 text-white rounded-md py-3 flex flex-col items-center z-30 text-sm px-5   bottom-10">
             <a
-              href="https://drive.google.com/file/d/1q45EdYPulbxz5lCVf6k_SybxDFq2XOoe/view?usp=drive_link"
+              href="https://drive.google.com/file/d/18PtFR5Sjer2gCJ7C8i-X4nxBBAsb3lft/view?usp=sharing"
               target="_blank"
               className="flex flex-col items-center"
             >
