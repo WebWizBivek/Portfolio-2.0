@@ -6,7 +6,7 @@ function BoxProject({ img, code, project }) {
       <img
         src={img}
         alt=""
-        className="w-full h-full object-cover mt-[-1rem] max-sm:w-[95%] max-sm:h-[18rem]"
+        className="w-full h-full object-contain mt-[-1rem] max-sm:w-[95%] max-sm:h-[18rem]"
       />
       <div className="w-full h-full hover:bg-[#00000080] absolute top-0 cursor-pointer transition duration-[0.3s] flex items-center justify-center text-center gap-10">
         <div className="icone">

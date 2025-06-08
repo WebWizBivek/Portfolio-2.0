@@ -18,9 +18,10 @@ function App() {
   const cursorRef = useRef(null);
 
   useGSAP(() => {
+    if (window.innerWidth < 640) return; // Skip for mobile
+
     const cursor = cursorRef.current;
 
-    // Example of using gsap to animate the cursor
     const handleMouseMove = (event) => {
       gsap.to(cursor, {
         x: event.clientX,
@@ -36,13 +37,13 @@ function App() {
       window.removeEventListener("mousemove", handleMouseMove);
     };
   }, []);
+
   return (
     <div className="w-full h-full bg-[#0B0B0B] cursor-pointer">
       <div
         ref={cursorRef}
-        className="cursor bg-pink-500 w-[140px] h-[140px] opacity-40 rounded-full fixed pointer-events-none z-50"
+        className="hidden sm:block bg-pink-500 w-[140px] h-[140px] opacity-40 rounded-full fixed pointer-events-none z-50"
       ></div>
-
       <Header />
       <Home />
       <About />
