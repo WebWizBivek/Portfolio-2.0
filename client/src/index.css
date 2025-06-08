@@ -11,6 +11,9 @@
   font-family: "font2";
   src: url("./font/font2.woff2");
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .icone {
   display: none;

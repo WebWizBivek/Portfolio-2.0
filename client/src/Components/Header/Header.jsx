@@ -9,13 +9,13 @@ function Header() {
         <nav>
           <ul className="uppercase font-[font1] text-[0.9rem] text-end cursor-pointer">
             <li className="text-zinc-100 hover:text-zinc-500 transition duration-[0.4s]">
-              Home
+              <a href="#home"> Home</a>
             </li>
             <li className="text-zinc-100 hover:text-zinc-500 transition duration-[0.4s]">
-              About
+              <a href="#about"> About</a>
             </li>
             <li className="text-zinc-100  hover:text-zinc-500 transition duration-[0.4s]">
-              work
+              <a href="#work">work</a>
             </li>
           </ul>
         </nav>
