@@ -15,7 +15,7 @@ function Project() {
           />
           <BoxProject
             img={"/assets/hiring.png"}
-            code={"https://hiring.xeotec.in/"}
+            project={"https://hiring.xeotec.in/"}
           />
           <BoxProject
             img={"/assets/project 3.jpg"}
