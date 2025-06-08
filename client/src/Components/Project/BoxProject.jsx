@@ -2,7 +2,7 @@ import React from "react";
 
 function BoxProject({ img, code, project }) {
   return (
-    <div className="boxPro w-[23rem] h-[20rem] bg-[#043d74] rounded-xl py-4 flex items-center justify-center relative overflow-hidden max-md:w-full max-md:h-[30rem] max-sm:h-[18rem] max-sm:rounded-[15px]">
+    <div className="boxPro w-[23rem] h-[20rem] bg-black rounded-xl py-4 flex items-center justify-center relative overflow-hidden max-md:w-full max-md:h-[30rem] max-sm:h-[18rem] max-sm:rounded-[15px]">
       <img
         src={img}
         alt=""
